@@ -5,12 +5,16 @@
 </template>
 
 <script>
+
 export default {
   name: "login",
   data() {
     return {
       msg: "6666"
     };
+  },
+  created(){
+    alert(process.env.BASE_URL)
   },
   methods: {
     go() {

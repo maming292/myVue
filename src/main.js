@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import inputFilter from '@/plugins/directives/InputFilter.js'
+
+vue.directive('inputFilter', inputFilter)
+
 
 Vue.config.productionTip = false
 

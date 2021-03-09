@@ -4,6 +4,10 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 
+// 引入切换域名文件
+require('./env-config.js');
+
+
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
